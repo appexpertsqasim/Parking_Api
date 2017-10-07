@@ -3,9 +3,11 @@ package com.example.tae.parking_api.model;
 /**
  * Created by TAE on 06/10/2017.
  */
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
 
 public class Parking_Model {
- {
+
 
         @SerializedName("id")
         @Expose
