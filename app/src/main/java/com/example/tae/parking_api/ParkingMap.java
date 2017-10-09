@@ -21,6 +21,7 @@ import java.util.List;
 
 import io.reactivex.disposables.CompositeDisposable;
 
+
 public class ParkingMap extends FragmentActivity implements OnMapReadyCallback,iAllMarkersMvpView {
 
     private GoogleMap mMap;
@@ -91,7 +92,7 @@ public class ParkingMap extends FragmentActivity implements OnMapReadyCallback,i
             }
             Log.i("TESSSSSSTING NAME ", p.getName());
 
-    }}
+        }}
 
     @Override
     public void showLoading() {
